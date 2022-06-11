@@ -1,0 +1,3 @@
+USE users;
+SELECT * FROM user;
+TRUNCATE TABLE user;

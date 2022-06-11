@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option go_package = "github.com/stakkato95/twitter-service-users/protoservice";
+
+package protoservice;
+
+service UsersService {
+    rpc CreateUser(User) returns (NewUser);
+
+    rpc AuthUser(User) returns (Token);
+
+    rpc AuthUserByToken(Token) returns (User);
+}
+
+message User {
+    int64 id = 1;
+    string username = 2;
+    string password = 3;
+}
+
+message Token {
+    string token = 1;
+}
+
+message NewUser {
+    User user = 1;
+	Token token = 2;
+}

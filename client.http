@@ -1,0 +1,21 @@
+GET http://localhost:{{port}}{{pathPrefix}}/debug/hello
+
+###
+
+POST http://localhost:{{port}}{{pathPrefix}}/debug/create
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "pass"
+}
+
+###
+
+POST http://localhost:{{port}}{{pathPrefix}}/debug/auth
+Content-Type: application/json
+
+{
+    "username": "user1",
+    "password": "pass"
+}

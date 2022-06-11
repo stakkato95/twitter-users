@@ -1,0 +1,14 @@
+apiVersion: v2
+name: twitter-users
+description: A Helm chart for twitter users service
+
+home: https://github.com/stakkato95/service-engineering-simple-twitter
+
+maintainers:
+  - name: Artsiom Kaliaha
+    email: stakkato95@gmail.com
+
+type: application
+
+version: 0.1.0
+appVersion: "0.1.0"
