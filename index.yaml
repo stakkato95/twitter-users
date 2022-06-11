@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  twitter-users:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2022-06-11T19:54:44.929193865Z"
+    description: A Helm chart for twitter users service
+    digest: e30d6cd6fce26074e1a5652d46f88b80ead98c4d4e1e3321053bcfb495756337
+    home: https://github.com/stakkato95/service-engineering-simple-twitter
+    maintainers:
+    - email: stakkato95@gmail.com
+      name: Artsiom Kaliaha
+    name: twitter-users
+    type: application
+    urls:
+    - https://github.com/stakkato95/twitter-users/releases/download/twitter-users-0.1.0/twitter-users-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-11T19:54:44.929198565Z"
