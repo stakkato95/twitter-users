@@ -1,0 +1,19 @@
+image:
+  repository: stakkato95/twitter-service-users
+  pullPolicy: Always
+  tag: "0.1.0"
+
+nameOverride: ""
+fullnameOverride: ""
+
+service:
+  type: ClusterIP
+  http:
+    name: http
+    port: 80
+  grpc:
+    name: grpc
+    port: 90
+
+ingress:
+  enabled: true
