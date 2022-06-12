@@ -25,11 +25,11 @@ clear:
 
 # docker
 docker-build-image:
-	docker build -t stakkato95/twitter-service-users:0.1.0 . -f Dockerfile
+	docker build -t stakkato95/twitter-service-users:0.1.1 . -f Dockerfile
 .PHONY:docker-build-image
 
 docker-push-image: docker-build-image
-	docker push stakkato95/twitter-service-users:0.1.0
+	docker push stakkato95/twitter-service-users:0.1.1
 .PHONY:docker-push-image
 
 docker-run-tmp-container: docker-build-image
