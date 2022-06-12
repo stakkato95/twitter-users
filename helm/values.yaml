@@ -1,7 +1,7 @@
 image:
   repository: stakkato95/twitter-service-users
   pullPolicy: Always
-  tag: "0.1.0"
+  tag: "0.1.1"
 
 nameOverride: ""
 fullnameOverride: ""
